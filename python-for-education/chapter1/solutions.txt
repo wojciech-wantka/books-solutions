@@ -1,0 +1,21 @@
+1.
+ * Main memory (consists of Read Only Memory and Random Access Memory)
+ * Secondary memory (hard drives)
+ * Central Processing Unit (consists of Control Unit and Arithmetic / Logic Unit)
+ * Input / output devices
+
+2. /home/ramu
+
+3. ls <directory_name>
+
+4. mkdir
+
+5. cd <directory_name>
+
+6. No
+
+7. Gnome, Unity
+
+8. Applications -> Accessories -> Terminal
+
+9. ...
