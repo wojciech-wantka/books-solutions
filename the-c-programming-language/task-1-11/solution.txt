@@ -1,0 +1,2 @@
+1. compare output with output from 'wc' program 
+2. large texts
