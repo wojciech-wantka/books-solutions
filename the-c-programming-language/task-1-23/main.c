@@ -10,7 +10,7 @@ main() {
 
     while ((c = getchar()) != EOF) {
         /*
-         * Machine has 3 states: 
+         * Machine has 3 states:
          *  - CODE
          *  - ONELINE_COMMENT
          *  - MULTILINE_COMMENT

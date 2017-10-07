@@ -130,8 +130,8 @@ print numpy.dot(rotation, vector)
 import numpy
 
 def function(x):
-	return x ** 2
-	
+    return x ** 2
+
 vectorizedFunction = numpy.vectorize(function)
 
 print vectorizedFunction([1, 2, 3])
