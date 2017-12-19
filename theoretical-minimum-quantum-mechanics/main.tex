@@ -1,0 +1,422 @@
+\documentclass[a4paper]{article}
+
+\usepackage{physics}
+
+\title{Solutions to exercises from Leonard Susskind's "Quantum Mechanics: The Theoretical Minimum"}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Chapter 1}
+
+\paragraph{Exercise 1.1}
+
+\begin{enumerate}
+    \item
+        \begin{math}
+            (\bra{A} + \bra{B}) \ket{C} = [\bra{C} (\ket{A} + \ket{B})]^{*} =
+            \bra{C}\ket{A}^{*} + \bra{C}\ket{B}^{*} =
+            \bra{A}\ket{C} + \bra{B}\ket{C}
+        \end{math}
+    \item
+        \begin{math}
+            \bra{A}\ket{A}^{*} = \bra{A}\ket{A}
+        \end{math}
+\end{enumerate}
+
+\paragraph{Exercise 1.2}
+
+It's obvious, that this definition is linear and antisimmetric function -- thus it is scalar product.
+
+\section{Chapter 2}
+
+\paragraph{Exercise 2.1}
+
+\begin{math}
+    \bra{p}\ket{l} = \frac{1}{\sqrt{2}} (\bra{g} + \bra{d}) \frac{1}{\sqrt{2}} (\ket{g} - \ket{d}) =
+    \frac{1}{2} (\bra{g} + \bra{d}) (\ket{g} - \ket{d}) =
+    \frac{1}{2} (\bra{g}\ket{g} - \bra{g}\ket{d} + \bra{d}\ket{g} - \bra{d}\ket{d}) =
+    \frac{1}{2} (1 - 0 + 0 - 1) = 0
+\end{math}
+
+\paragraph{Exercise 2.2}
+
+$$
+    \ket{w} = \frac{1}{\sqrt{2}} (\ket{g} + i \ket{d})
+$$
+
+$$
+    \ket{z} = \frac{1}{\sqrt{2}} (\ket{g} - i \ket{d})
+$$
+
+\begin{enumerate}
+    \item Condition (2.7)
+        $$
+            \bra{w}\ket{z} = \frac{1}{2} (\bra{g} - i \bra{d}) (\ket{g} - i \ket{d}) = 0
+        $$
+    \item Condition (2.8)
+        $$
+            \bra{z}\ket{g} = \frac{1}{\sqrt{2}} \Rightarrow |\bra{z}\ket{g}|^{2} = \frac{1}{2}
+        $$
+
+        $$
+            \bra{z}\ket{d} =  \frac{i}{\sqrt{2}} \Rightarrow |\bra{z}\ket{d}|^{2} = \frac{1}{2}
+        $$
+
+        $$
+            \bra{w}\ket{g} = \frac{1}{\sqrt{2}} \Rightarrow |\bra{w}\ket{g}|^{2} = \frac{1}{2}
+        $$
+
+        $$
+            \bra{w}\ket{d} = - \frac{i}{\sqrt{2}} \Rightarrow |\bra{w}\ket{d}|^{2} = \frac{1}{2}
+        $$
+    \item Condition (2.9)
+        $$
+            \ket{p} = \frac{1}{\sqrt{2}} (\ket{g} + \ket{d})
+        $$
+
+        $$
+            \ket{l} = \frac{1}{\sqrt{2}} (\ket{g} - \ket{d})
+        $$
+
+        $$
+            \bra{z}\ket{p} = \frac{1}{2} + \frac{i}{2} \Rightarrow |\bra{z}\ket{p}|^{2} = \frac{1}{2}
+        $$
+
+        $$
+            \bra{z}\ket{l} = \frac{1}{2} - \frac{i}{2} \Rightarrow |\bra{z}\ket{p}|^{2} = \frac{1}{2}
+        $$
+
+        $$
+            \bra{w}\ket{p} = \frac{1}{2} - \frac{i}{2} \Rightarrow |\bra{z}\ket{p}|^{2} = \frac{1}{2}
+        $$
+
+        $$
+            \bra{w}\ket{l} = \frac{1}{2} + \frac{i}{2} \Rightarrow |\bra{z}\ket{p}|^{2} = \frac{1}{2}
+        $$
+\end{enumerate}
+
+These vectors are not unique, because they can be multiplied by phase factor.
+
+\paragraph{Exercise 2.3}
+
+\begin{enumerate}
+    \item Equation (2.8) tells precisely, that square of modulus of vectors' components is equal to $\frac{1}{2}$
+    \item
+        $$
+            \bra{p}\ket{w} = \frac{\alpha}{\sqrt{2}} + \frac{\beta}{\sqrt{2}}
+        $$
+
+        $$
+            (\frac{\alpha}{\sqrt{2}} + \frac{\beta}{\sqrt{2}}) (\frac{\alpha^{*}}{\sqrt{2}} + \frac{\beta^{*}}{\sqrt{2}}) = \frac{1}{2}
+        $$
+
+        $$
+            (\alpha + \beta) (\alpha^{*} + \beta^{*}) = 1
+        $$
+
+        $$
+            |\alpha|^{2} + \alpha \beta^{*} + \alpha^{*} \beta + |\beta|^{2} = 1
+        $$
+
+        $$
+            \alpha \beta^{*} + \alpha^{*} \beta = 0
+        $$
+
+        Analogously $\gamma^{*} \delta + \gamma \delta^{*} = 0$
+    \item
+        $$
+            x = a + i b
+        $$
+
+        $$
+            x^{*} + x = 0
+        $$
+
+        $$
+            a + i b + a - i b = 0
+        $$
+
+        $$
+            a = 0
+        $$
+\end{enumerate}
+
+\paragraph{Exercise 2.3} 
+
+TODO
+
+\section{Chapter 3}
+
+\paragraph{Exercise 3.2}
+
+Obvious.
+
+\paragraph{Exercise 3.3}
+
+TODO
+
+$$
+    \sigma_{n} =
+        \begin{bmatrix}
+            \cos\theta & \sin\theta \\
+            \sin\theta & -\cos\theta
+        \end{bmatrix}
+$$
+
+$$
+    (\cos\theta - \lambda) (-\cos\theta - \lambda) - \sin^{2}\theta = 0
+$$
+
+$$
+    -(\cos^{2}\theta - \lambda^{2}) - \sin^{2}\theta = 0
+$$
+
+$$
+    \lambda^{2} = 1
+$$
+
+$$
+    \lambda_{1} = 1, \lambda_{2} = -1
+$$
+
+\begin{itemize}
+    \item $\ket{\lambda_{1}}$
+        $$
+            \begin{cases}
+                x (\cos\theta - 1) + y \sin\theta = 0 \\
+                x \sin\theta + y (-\cos\theta - 1) = 0
+            \end{cases}
+        $$
+
+        $$
+            \begin{cases}
+                y = \frac{-\cos\theta + 1}{\sin\theta} x \\
+                y = \frac{\sin\theta}{\cos\theta + 1} x
+            \end{cases}
+        $$
+
+        Let $x = 1$. Then
+    \item $\ket{\lambda_{2}}$
+\end{itemize}
+
+\paragraph{Exercise 3.4}
+
+$$
+    \sigma_{n} =
+        \begin{bmatrix}
+            \cos\theta & \sin\theta \cos\phi - i \sin\theta \sin\phi \\
+            \sin\theta \cos\phi + i \sin\theta \sin\phi & - \cos\theta
+        \end{bmatrix}
+$$
+
+$$
+    (\cos\theta - \lambda) (- \cos\theta - \lambda) - (\sin\theta \cos\phi + i \sin\theta \sin\phi) (\sin\theta \cos\phi - i \sin\theta \sin\phi) = 0
+$$
+
+$$
+    - (\cos^{2}\theta - \lambda^{2}) - (\sin^{2}\theta \cos^{2}\phi + \sin^{2}\theta \sin^{2}\phi) = 0
+$$
+
+$$
+    - \cos^{2}\theta + \lambda^{2} - \sin^{2}\theta = 0
+$$
+
+$$
+    \lambda_{1} = 1, \lambda_{2} = -1
+$$
+
+\begin{itemize}
+    \item $\ket{\lambda_{1}}$
+\end{itemize}
+
+\section{Chapter 4}
+
+\paragraph{Exercise 4.1}
+
+$$
+    \bra{U A}\ket{U B} = \bra{A} U^{\dag} U \ket{B} = \bra{A}\ket{B}
+$$
+
+\paragraph{Exercise 4.2}
+
+\begin{math}
+    (i [M, L])^{\dag} = (i (M L - L M))^{\dag} = (i M L - i L M)^{\dag} = - i L^{\dag} M^{\dag} + i M^{\dag} L^{\dag} =
+    - i L M + i M L = i (M L - L M) = i [M, L]
+\end{math}
+
+\section{Chapter 7}
+
+\paragraph{Exercise 7.1}
+
+$$
+    I \otimes \tau_{x} =
+    \begin{bmatrix}
+        1 & 0 \\
+        0 & 1
+    \end{bmatrix}
+    \otimes
+    \begin{bmatrix}
+        0 & 1 \\
+        1 & 0
+    \end{bmatrix} =
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 1 \\
+        0 & 0 & 1 & 0
+    \end{bmatrix}
+$$
+
+$$
+    (I \otimes \tau_{x})\ket{gg} =
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 1 \\
+        0 & 0 & 1 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        1 \\
+        0 \\
+        0 \\
+        0
+    \end{bmatrix} =
+    \begin{bmatrix}
+        0 \\
+        1 \\
+        0 \\
+        0
+    \end{bmatrix} =
+    \ket{gd}
+$$
+
+$$
+    (I \otimes \tau_{x})\ket{gd} =
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 1 \\
+        0 & 0 & 1 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 \\
+        1 \\
+        0 \\
+        0
+    \end{bmatrix} =
+    \begin{bmatrix}
+        1 \\
+        0 \\
+        0 \\
+        0
+    \end{bmatrix} =
+    \ket{gg}
+$$
+
+$$
+    (I \otimes \tau_{x})\ket{dg} =
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 1 \\
+        0 & 0 & 1 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 \\
+        0 \\
+        1 \\
+        0
+    \end{bmatrix} =
+    \begin{bmatrix}
+        0 \\
+        0 \\
+        0 \\
+        1
+    \end{bmatrix} =
+    \ket{dd}
+$$
+
+$$
+    (I \otimes \tau_{x})\ket{dd} =
+    \begin{bmatrix}
+        0 & 1 & 0 & 0 \\
+        1 & 0 & 0 & 0 \\
+        0 & 0 & 0 & 1 \\
+        0 & 0 & 1 & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        0 \\
+        0 \\
+        0 \\
+        1
+    \end{bmatrix} =
+    \begin{bmatrix}
+        0 \\
+        1 \\
+        1 \\
+        0
+    \end{bmatrix} =
+    \ket{dg}
+$$
+
+\paragraph{Exercise 7.2}
+
+$$
+    \sigma_{z} \otimes \tau_{x} =
+    \begin{bmatrix}
+        \bra{gg} \sigma_{z} \tau_{x} \ket{gg} & \bra{gg} \sigma_{z} \tau_{x} \ket{gd} & \bra{gg} \sigma_{z} \tau_{x} \ket{dg} & \bra{gg} \sigma_{z} \tau_{x} \ket{dd} \\
+        \bra{gd} \sigma_{z} \tau_{x} \ket{gg} & \bra{gd} \sigma_{z} \tau_{x} \ket{gd} & \bra{gd} \sigma_{z} \tau_{x} \ket{dg} & \bra{gd} \sigma_{z} \tau_{x} \ket{dd} \\
+        \bra{dg} \sigma_{z} \tau_{x} \ket{gg} & \bra{dg} \sigma_{z} \tau_{x} \ket{gd} & \bra{dg} \sigma_{z} \tau_{x} \ket{dg} & \bra{dg} \sigma_{z} \tau_{x} \ket{dd} \\
+        \bra{dd} \sigma_{z} \tau_{x} \ket{gg} & \bra{dd} \sigma_{z} \tau_{x} \ket{gd} & \bra{dd} \sigma_{z} \tau_{x} \ket{dg} & \bra{dd} \sigma_{z} \tau_{x} \ket{dd}
+    \end{bmatrix}
+$$
+
+\section{Chapter 8}
+
+\paragraph{Exercise 8.1}
+
+Obvious.
+
+\section{Chapter 9}
+
+\paragraph{Exercise 9.1}
+
+$$
+    - \frac{\hbar^{2}}{2 m} \frac{\partial^{2}}{\partial x^{2}} e^{\frac{i p x}{\hbar}} = E e^{\frac{i p x}{\hbar}}
+$$
+
+$$
+    - \frac{\hbar^{2}}{2 m} (\frac{i p}{\hbar})^{2} e^{\frac{i p x}{\hbar}} = E e^{\frac{i p x}{\hbar}}
+$$
+
+$$
+    E = - \frac{\hbar^{2}}{2 m} (\frac{i p}{\hbar})^{2} = \frac{p^{2}}{2 m}
+$$
+
+\paragraph{Exercise 9.2}
+
+\begin{math}
+    P [P, X] + [P, X] P = P (P X - X P) + (P X - X P) P = P^{2} X - P X P + P X P - X P^{2} =
+    P^{2} X - X P^{2} = [P^{2}, X]
+\end{math}
+
+\paragraph{Exercise 9.3}
+
+\begin{math}
+    - i \hbar V(x) \frac{d \Psi}{d x} + i \hbar (\frac{d V}{d x} + V \frac{d \Psi}{d x}) =
+    i \hbar \frac{d V}{d x} \Psi = [V(x), P] \Psi(x)
+\end{math}
+
+\section{Chapter 10}
+
+\paragraph{Exercise 10.1}
+
+$$
+    \ddot{x} = \omega^{2} (- A \cos(\omega t) - B \sin(\omega t)) = - \omega^{2} x
+$$
+
+\end{document}

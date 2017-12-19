@@ -1,0 +1,95 @@
+\documentclass[a4paper]{article}
+
+\usepackage{physics}
+
+\title{Solutions to exercises from Ramamurti Shankar "Quantum Mechanics"}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Chapter 1}
+
+\paragraph{Exercise 1.1.1}
+
+\begin{enumerate}
+    \item There is exactly one null vector.
+
+    Let $\ket{0}, \ket{0'}$ be null vectors against addition operation. Then for any $\ket{v}$ we have
+    $$
+        \ket{v} + \ket{0} = \ket{0} + \ket{v} = \ket{0},
+    $$
+    $$
+        \ket{v} + \ket{0'} = \ket{0'} + \ket{v} = \ket{0'}.
+    $$
+    For that reason $\ket{0} + \ket{0'} = \ket{0}$. Similarly $\ket{0} + \ket{0'} = \ket{0'}$. Eventually, $\ket{0} = \ket{0'}$.
+
+    \item $0 \ket{v} = \ket{0}$.
+
+    We have $\ket{0} = \ket{v} + \ket{-v} = (0 + 1) \ket{v} + \ket{-v} = 0 \ket{v} + \ket{v} + \ket{-v} = 0 \ket{v} + \ket{0} = \ket{0}$.
+
+    \item $\ket{- v} = - \ket{v}$.
+
+    We have $\ket{v} + \ket{-v} = \ket{0} = \textrm{(point 2)} = 0 \ket{v} = (1 + (-1)) \ket{v} = \ket{v} + (- \ket{v})$
+
+    For that reason $\ket{- v} = - \ket{v}$
+
+    \item for any $\ket{v}$ there is exactly one $\ket{- v}$.
+
+    For any $\ket{v}$ let $\ket{w}$ it's inversion. There is only one null vector $\ket{0}$ (according to point $1$). For that reason $\ket{v} + \ket{w} = \ket{v} + (- \ket{v})$. We have then $\ket{w} = - \ket{v}$, because there is exactly one inversion. 
+\end{enumerate}
+
+\paragraph{Exercise 1.1.2}
+
+$$
+    (a, b, c) + (d, e, f) = (a + d, b + e, c + f)
+$$
+$$
+    \alpha (a, b, c) = (\alpha a, \alpha b, \alpha c)
+$$
+$$
+    \textrm{null vector:} \ket{0} = (0, 0, 0)
+$$
+$$
+    \textrm{inverse vector:} (-a, -b, -c)
+$$
+Vectors $(a, b, 1)$ don't create linear space, because their set don't have null vector.
+
+\paragraph{Exercise 1.1.3}
+
+\begin{enumerate}
+    \item Yes
+    \item No, because there is not null vector
+    \item No, because there is not null vector
+\end{enumerate}
+
+\paragraph{Exercise 1.1.4}
+
+Space of these vectors isn't linearly independent, because
+
+$$
+    -1 \ket{1} + 2 \ket{2} + 1 \ket{3} = \ket{0}.
+$$
+
+\paragraph{Exercise 1.1.5}
+
+\begin{enumerate}
+    \item This set of vectors isn't linearly independent, because we have $\ket{1} = \frac{1}{2} (\ket{3} - \ket{2})$
+    \item This set of vectors is linearly independent, because only solution of $a_{1} \ket{1} + a_{2} \ket{2} + a_{3} \ket{3} = \ket{0}$ is $a_{1} = a_{2} = a_{3} = 0$:
+
+    $$
+        a_{1} (1, 1, 0) + a_{2} (1, 0, 1) + a_{3} (0, 1, 1) = (0, 0, 0)
+    $$
+
+    $$
+        \begin{cases}
+            a_{1} + a_{2} = 0 \\
+            a_{1} + a_{3} = 0 \\
+            a_{2} + a_{3} = 0
+        \end{cases}
+    $$
+\end{enumerate}
+
+\end{document}

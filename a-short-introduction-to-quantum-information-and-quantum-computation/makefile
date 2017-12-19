@@ -1,0 +1,2 @@
+all:
+	texliveonfly main.tex

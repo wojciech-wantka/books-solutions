@@ -1,0 +1,69 @@
+\documentclass[a4paper]{article}
+
+\usepackage{mathtools}
+
+\title{Solutions to exercises from Mika Hirvensalo "Quantum Computing"}
+\date{}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Chapter 2}
+
+\paragraph{Exercise 2.1}
+
+$$
+W_{2} =
+    \begin{bmatrix}
+        \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\
+        \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}}
+    \end{bmatrix}
+$$
+
+$$
+W_{2} W_{2} =
+    \begin{bmatrix}
+        1 & 0 \\
+        0 & 1
+    \end{bmatrix}
+$$
+
+\paragraph{Exercise 2.2}
+
+$$
+B =
+    \begin{bmatrix}
+        \frac{1}{\sqrt{2}} & 0 & 0 & \frac{1}{\sqrt{2}} \\
+        0 & \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0 \\
+        \frac{1}{\sqrt{2}} & 0 & 0 & -\frac{1}{\sqrt{2}} \\
+        0 & -\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0
+    \end{bmatrix}
+$$
+
+$$
+B B^{\dag} =
+    \begin{bmatrix}
+        \frac{1}{\sqrt{2}} & 0 & 0 & \frac{1}{\sqrt{2}} \\
+        0 & \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0 \\
+        \frac{1}{\sqrt{2}} & 0 & 0 & -\frac{1}{\sqrt{2}} \\
+        0 & -\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} & 0
+    \end{bmatrix}
+    \begin{bmatrix}
+        \frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}} & 0 \\
+        0 & \frac{1}{\sqrt{2}} & 0 & -\frac{1}{\sqrt{2}} \\
+        0 & \frac{1}{\sqrt{2}} & 0 & \frac{1}{\sqrt{2}} \\
+        \frac{1}{\sqrt{2}} & 0 & -\frac{1}{\sqrt{2}} & 0
+    \end{bmatrix}
+    =
+    \begin{bmatrix}
+        1 & 0 & 0 & 0 \\
+        0 & 1 & 0 & 0 \\
+        0 & 0 & 1 & 0 \\
+        0 & 0 & 0 & 1
+    \end{bmatrix}
+$$
+
+
+\end{document}

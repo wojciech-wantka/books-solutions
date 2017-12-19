@@ -3,7 +3,7 @@
 void squeeze(char string[], char characters[]);
 
 main() {
-    char string[] = "bedziemy usuwac literki";
+    char string[] = "we will delete characters";
     char characters[] = "edu";
 
     squeeze(string, characters);

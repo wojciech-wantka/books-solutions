@@ -1,0 +1,1 @@
+Solutions to exercises from Mika Hirvensalo "Quantum Computing".
